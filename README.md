@@ -40,44 +40,45 @@
    ```bash
    git clone https://github.com/<YourGitHubUsername>/MetaSniffer.git
    cd MetaSniffer
+   ```
 
 2. Install Dependencies
 Install all required Python libraries:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 3. Run MetaPeek
 Extract metadata by running the script:
-
+```bash
 python metadata_extractor.py <file_path>
-
+```
 
 
 
 ---
 
-🛠 Advanced Options
+## 🛠 Advanced Options
 
 Examples
 
 Basic Extraction:
-
+```bash
 python metadata_extractor.py example.jpg
-
+```
 Save as JSON:
-
+```bash
 python metadata_extractor.py example.mp3 --save-json
-
+```
 Enable Logging:
-
+```bash
 python metadata_extractor.py example.pdf --log
-
+```
 
 
 ---
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 MetaSniffer’s core functionality is powered by MetaPeek, ensuring seamless metadata extraction across various file types. Its configuration supports:
 
@@ -88,17 +89,16 @@ Integration with third-party APIs for extended analysis.
 Future-proofing with modular design for scalability.
 
 
-
 ---
 
-📋 License
+## 📋 License
 
 MetaSniffer is licensed under the MIT License. See the LICENSE file for detailed terms and conditions.
 
 
 ---
 
-🌟 Contributing
+## 🌟 Contributing
 
 We welcome contributions from the community!
 
@@ -117,14 +117,12 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ---
 
-🧑‍💻 Author
-
-Chanuka
+## 🧑‍💻 Author
 
 GitHub: Chanuka-KL
 
 Tool: MetaPeek
 
-Contact: email@example.com
+Contact: chanuka.dev.kl@gmail.com
 
 
