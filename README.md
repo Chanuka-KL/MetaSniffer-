@@ -125,6 +125,6 @@ Tool: MetaPeek
 
 Contact: chanuka.dev.kl@gmail.com
 
-![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)(https//wa.me/+94766576559)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https//wa.me/+94766576559)
 
 
