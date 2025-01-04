@@ -123,6 +123,6 @@ GitHub: Chanuka-KL
 
 Tool: MetaPeek
 
-Contact: chanuka.dev.kl@gmail.com
+Contact: chanuka.dev.kl@gmail.com [![WhatsApp](https://camo.githubusercontent.com/2f5ba03aa79e983b821be90c245ae64cb4f70cff266cf7f80a276307d75c84ee/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f77686174736170702e737667)](wa.me/+94766576559)
 
 
