@@ -1,127 +1,122 @@
-# MetaSniffer 🔍 
+# MetaPeek
 
-![MetaDataHunter](https://img.shields.io/badge/version-1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.8%2B-yellow)
-![Platform](https://img.shields.io/badge/platform-cross--platform-lightgrey)
+![MetaPeek Banner](https://via.placeholder.com/1000x300?text=MetaPeek+-+Your+Go-To+Metadata+Extractor)
 
-
-**MetaSniffer** is a comprehensive metadata extraction tool, powered by the versatile **MetaPeek** engine. Designed for professionals and enthusiasts alike, MetaSniffer supports multiple file types, offering clean, readable metadata output with advanced features for saving, logging, and customization.
+MetaPeek is a **lightweight yet powerful** metadata extraction tool that supports a variety of file types, from images and PDFs to audio files and beyond. Built with simplicity and efficiency in mind, MetaPeek helps you uncover hidden details with style and ease.
 
 ---
 
-## ✨ Features  
+## 🚀 Features
 
-- 🌟 **Multi-File Support**: Handles images, audio, PDFs, videos, and more.  
-- 🚀 **Efficient Extraction**: Quickly retrieves metadata in an organized, user-friendly format.  
-- 🧹 **Clean Metadata**: Automatically decodes and formats raw metadata into readable text.  
-- 📂 **Export to JSON**: Save metadata in a structured `.json` file for further analysis.  
-- 📜 **Detailed Logs**: Keeps a record of all operations in a log file.  
-- 🎨 **Colorized Output**: Highlights metadata categories and values for better visibility.  
-- 🛠️ **Customizable Options**: Supports advanced features like logging and export customization.
+- **Multi-format Support**: Extract metadata from images, audio, PDFs, and general files.
+- **Readable Outputs**: Converts binary/hexadecimal metadata into clean, readable text.
+- **Detailed Logs**: Generates comprehensive logs for seamless tracking.
+- **Customizable**: Save metadata in JSON format for further analysis.
+- **Interactive UI**: Beautifully styled CLI output with color-coded highlights and animations.
 
 ---
 
-## 📂 Supported File Types  
+## 🛠️ Technologies Used
 
-| File Type  | Extensions              | Example Use |
-|------------|--------------------------|-------------|
-| **Images** | `.jpg`, `.jpeg`, `.png`  | Photo EXIF extraction |
-| **Audio**  | `.mp3`, `.wav`, `.flac`  | Music metadata |
-| **PDFs**   | `.pdf`                   | Document properties |
-| **Videos** | `.mp4`, `.avi`, `.mov`   | General file analysis (via Hachoir) |
-| **Others** | Supported by Hachoir    | Metadata from obscure formats |
+- **Programming Language**: Python 3
+- **Libraries**:
+  - [ExifRead](https://github.com/ianare/exif-py): Image metadata extraction
+  - [Mutagen](https://mutagen.readthedocs.io): Audio file handling
+  - [PyPDF2](https://github.com/py-pdf/pypdf2): PDF metadata extraction
+  - [Hachoir](https://hachoir.readthedocs.io): General file metadata parsing
+  - [Termcolor](https://pypi.org/project/termcolor/): CLI text styling
+  - [Tqdm](https://tqdm.github.io): Progress bar animations
 
 ---
 
-## 🚀 Quick Start  
+## ⚙️ Installation
 
-1. **Clone the Repository**  
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<YourGitHubUsername>/MetaSniffer.git
-   cd MetaSniffer
-   ```
+   git clone https://github.com/Chanuka-KL/MetaPeek.git
+   cd MetaPeek
 
-2. Install Dependencies
-Install all required Python libraries:
-```bash
+2. Install Dependencies:
+
 pip install -r requirements.txt
-```
-
-3. Run MetaPeek
-Extract metadata by running the script:
-```bash
-python metadata_extractor.py <file_path>
-```
 
 
+3. Run the Tool:
 
----
+python MetaPeek.py --help
 
-## 🛠 Advanced Options
 
-Examples
-
-Basic Extraction:
-```bash
-python metadata_extractor.py example.jpg
-```
-Save as JSON:
-```bash
-python metadata_extractor.py example.mp3 --save-json
-```
-Enable Logging:
-```bash
-python metadata_extractor.py example.pdf --log
-```
 
 
 ---
 
-## ⚙️ Configuration
-
-MetaSniffer’s core functionality is powered by MetaPeek, ensuring seamless metadata extraction across various file types. Its configuration supports:
-
-Dynamic addition of file formats.
-
-Integration with third-party APIs for extended analysis.
-
-Future-proofing with modular design for scalability.
+📂 Supported File Types
 
 
 ---
 
-## 📋 License
+📖 Usage
 
-MetaSniffer is licensed under the MIT License. See the LICENSE file for detailed terms and conditions.
+Basic Metadata Extraction
 
+python MetaPeek.py <file_path>
 
----
+Save Metadata as JSON
 
-## 🌟 Contributing
+python MetaPeek.py <file_path> --save-json
 
-We welcome contributions from the community!
+Enable Logging
 
-1. Fork the Repository
-
-
-2. Create a Feature Branch
-
-
-3. Submit a Pull Request
-
-
-
-For major changes, please open an issue first to discuss what you would like to change.
+python MetaPeek.py <file_path> --log
 
 
 ---
 
-## 🧑‍💻 Author
+✨ Sample Output
 
-GitHub: Chanuka-KL
+CLI Output:
 
-Tool: MetaPeek
+Extracting metadata from file: example.jpg
+------------------------------------------------------------
+Image Metadata:
+  - Camera Make: Canon
+  - Exposure Time: 1/125
+  - ISO Speed: 200
+------------------------------------------------------------
 
-Contact: chanuka.dev.kl@gmail.com
+JSON File:
+
+{
+  "Image Metadata": {
+    "Camera Make": "Canon",
+    "Exposure Time": "1/125",
+    "ISO Speed": "200"
+  }
+}
+
+
+---
+
+🤝 Contribution
+
+We welcome contributions to enhance MetaPeek! Here's how you can help:
+
+1. Fork the repo.
+
+
+2. Create a branch for your feature:
+
+git checkout -b feature/AmazingFeature
+
+
+3. Commit your changes:
+
+git commit -m "Add some AmazingFeature"
+
+
+4. Push to the branch:
+
+git push origin feature/Amazing
+
+
 
